@@ -1,13 +1,13 @@
-package com.financa.Financas;
+package com.markus;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FinancasApplication {
+public class FinanceiroApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FinancasApplication.class, args);
+		SpringApplication.run(FinanceiroApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.financa.model;
+package com.markus.model;
 
 import java.sql.Date;
 
@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 public class Tipo extends Receita {
 
 	private static final long serialVersionUID = 1L;
-	private Long idt;
+	private Long id_tp;
 	private String nome;
 	
 	public Tipo() {
@@ -16,19 +16,19 @@ public class Tipo extends Receita {
 	}
 	
 	public Tipo(Long id, String descricao, Date vencimento, Long valor,
-				Long idt, String nome) {
+				Long id_tp, String nome) {
 		super(id, descricao, vencimento, valor);
-		this.idt = idt;
+		this.id_tp = id_tp;
 		this.nome = nome;
 	}
 	
 
-	public Long getIdt() {
-		return idt;
+	public Long getid_tp() {
+		return id_tp;
 	}
 
-	public void setId(Long idt) {
-		this.idt = idt;
+	public void setid_tp(Long id_tp) {
+		this.id_tp = id_tp;
 	}
 
 	public String getNome() {
