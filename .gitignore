@@ -23,8 +23,3 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-
-# eclipse project file
-.settings/
-.classpath
-.project
